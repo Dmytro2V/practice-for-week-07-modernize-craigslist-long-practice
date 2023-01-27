@@ -31,3 +31,119 @@ p.more {
 }
 
 /* Your code here */
+* {
+  font-family: "Helvrtica Neue", "Helvetica", "sans-serif";
+  background-color: whitesmoke;
+  color: #464646;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+}
+
+ul>li {
+  list-style: none;
+}
+
+a:visited {
+  color: #800080
+}
+a:hover {
+  font-weight: bold;
+  color: #800080;
+}
+a>span:hover {
+  font-weight: bold;
+  color: #800080;
+}
+.page-container {
+  max-width: 1200px;
+}
+#leftbar, #center, #rightbar {
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+#leftbar #logo a, #postlks a  {
+  color:#800080
+}
+
+
+footer {
+  clear: both
+}
+#leftbar, #rightbar {
+  width: 25%;
+}
+#center {
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#center>div {
+  float:left;
+  width: 33%;
+}
+#topban h2 {
+  text-align: center;
+}
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid grey;
+  padding:10px 0;
+}
+ul.clfooter>li {
+  display:inline;
+  padding-right: 5px;
+}
+h4.ban::before  {
+  content: '☮';  
+  background-color:plum;
+  border: 1 thin plum;
+  border-radius: 2px;
+  padding-right: 2px;
+  margin-right: 5px;  
+}
+td {
+  border: 1px solid #333;
+  text-align: center;
+}
+table.cal {
+  border-collapse:collapse;  
+}
+.cal a {
+  color: green;
+  font-weight: bold ;    
+}
+.cal a:hover {
+  background-color: lavender;  
+}
+
+td.past {
+  color:black;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+table.cal td.today a {
+  background-color: darkviolet;
+  color:white
+}
+
+li:first-child {
+  border: 1px solid goldenrod;
+  border-radius: 3px;
+}
+li:last-child  {
+  border: 1px solid goldenrod;
+  border-radius: 3px;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+select:focus {
+  background-color: ivory;
+}
